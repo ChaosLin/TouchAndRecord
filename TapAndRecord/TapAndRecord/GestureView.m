@@ -43,7 +43,7 @@
 
 - (void)buttonTouchDown:(id)sender
 {
-    DLog(@"%@", NSStringFromSelector(_cmd));
+//    DLog(@"%@", NSStringFromSelector(_cmd));
     
     if (self.delegate && [self.delegate respondsToSelector:@selector(gestureViewDidTouchDown:)])
     {
@@ -54,7 +54,7 @@
 
 - (void)buttonTouchUpInside:(id)sender
 {
-    DLog(@"%@", NSStringFromSelector(_cmd));
+//    DLog(@"%@", NSStringFromSelector(_cmd));
     if (self.delegate && [self.delegate respondsToSelector:@selector(gestureViewDidTouchUpInside:)])
     {
         [self.delegate gestureViewDidTouchUpInside:self];
@@ -63,7 +63,7 @@
 
 - (void)buttonTouchUpOutside:(id)sender
 {
-    DLog(@"%@", NSStringFromSelector(_cmd));
+//    DLog(@"%@", NSStringFromSelector(_cmd));
 }
 
 #pragma mark - UIGestureRecognizerDelegate

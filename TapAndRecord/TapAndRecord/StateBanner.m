@@ -7,7 +7,7 @@
 //
 
 #import "StateBanner.h"
-#import "CommonMacro.h"
+//#import "CommonMacro.h"
 
 static StateBanner* banner = nil;
 
